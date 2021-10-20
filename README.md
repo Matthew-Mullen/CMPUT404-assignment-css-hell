@@ -22,3 +22,20 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 Code is licensed under the Apache 2.0 license.
 
 
+Changes in Part 1:
+
+Paragraphs:
+
+font has been changed to "Comic Sans MS"
+first line is indented
+all the texts are moved to the center of the page
+Headers:
+
+text are Italic, bold and centered
+background are changed to gray
+Images:
+
+images are moved to the center of the page
+Colour Scheme:
+
+Changed background to an old burned paper look that I thought had a scroll like feel since I picked old books!
