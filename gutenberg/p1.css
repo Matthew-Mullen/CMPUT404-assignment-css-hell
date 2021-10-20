@@ -1,0 +1,26 @@
+body {
+    background-image: url("dustypaper.jpg");
+    background-repeat: repeat-y;
+    background-size: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: justify;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2,h3,h4,h5,h6 {
+    
+    text-align: justify;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+    text-decoration-color: black;
+    background: gold;
+}
+
+p {
+    text-indent: 1em;
+    margin-top: 0.25em;
+    margin-bottom: 0.25em
+}
+
