@@ -25,17 +25,13 @@ Code is licensed under the Apache 2.0 license.
 Changes in Part 1:
 
 Paragraphs:
+Indented by 1em and centered the text to make it look cleaner and more like a scroll.
 
-font has been changed to "Comic Sans MS"
-first line is indented
-all the texts are moved to the center of the page
 Headers:
+Header text style was set to Italic and given bold weight. In addition, also changed font size to large to make it stand out more and gave it a gold background in line with the scroll theme I mentioned. Also changed font family to ['Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif] which is just a personal preference.
 
-text are Italic, bold and centered
-background are changed to gray
 Images:
+Centered the images within the HTML to make it look cleaner. Also changed image to be a block element rather than inline since I think inline images don't look ideal.
 
-images are moved to the center of the page
 Colour Scheme:
-
 Changed background to an old burned paper look that I thought had a scroll like feel since I picked old books!
