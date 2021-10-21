@@ -24,8 +24,14 @@ Code is licensed under the Apache 2.0 license.
 
 Changes in Part 1:
 
+HTML files:
+Added the line [<link href="gutenberg-part1.css" rel="stylesheet" type="text/css"/>] which sets the stylesheet of the html files to be gutenberg-part1.css so it looks like how I configured. Also deleted the overlapping properties found within the embedded css for each HTML file so it uses the stylesheet I provided.
+
 Paragraphs:
 Indented by 1em and centered the text to make it look cleaner and more like a scroll.
+
+Body:
+Added a cool old style burnt scroll background to reflect the nature of the books since they are all old. Also changed the font and justified the text.
 
 Headers:
 Header text style was set to Italic and given bold weight. In addition, also changed font size to large to make it stand out more and gave it a gold background in line with the scroll theme I mentioned. Also changed font family to ['Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif] which is just a personal preference.
