@@ -25,7 +25,7 @@ Code is licensed under the Apache 2.0 license.
 Changes in Part 1:
 
 HTML files:
-Added the line [<link href="gutenberg-part1.css" rel="stylesheet" type="text/css"/>] which sets the stylesheet of the html files to be gutenberg-part1.css so it looks like how I configured. Also deleted the overlapping properties found within the embedded css for each HTML file so it uses the stylesheet I provided.
+Added a line that sets the stylesheet of the html files to be gutenberg-part1.css so it looks like how I configured. Also deleted the overlapping properties found within the embedded css for each HTML file so it uses the stylesheet I provided.
 
 Paragraphs:
 Indented by 1em and centered the text to make it look cleaner and more like a scroll.

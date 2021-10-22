@@ -1,0 +1,61 @@
+body{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+h1{
+    font-size: 8pt;
+    text-align: center;
+}
+h2{
+    font-size: 18pt;
+    font-style: italic;
+    font-weight: bold;
+    text-align: justify;
+}
+h3{
+    font-size: 14pt;
+}
+p{
+    font-size: medium;
+    text-align: justify;
+}
+.navigationtop{
+    padding-top: 0.5em;
+    text-align: center;
+    background-image: url("bar.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.navigationbottom{
+    padding: 3px;
+    background-color: #000;
+}
+li.navigation_item a {
+    padding-bottom: 0.1em;
+    padding-top: 0.4em;
+    padding-left: 5%;
+    padding-right: 5%;
+    color: black;
+    text-decoration: none;
+}
+
+li.navigation_item :hover{
+    border: solid #000;
+    font-size: 110%;
+}
+li.navigation_item{
+    display: inline;
+    text-align: center;
+
+}
+#clicked{
+    background-color: #000;
+}
+img{
+    height: 30em;
+    width: 20em;
+}
