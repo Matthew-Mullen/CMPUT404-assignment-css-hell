@@ -5,57 +5,82 @@ body{
     right: 0;
     left: 0;
 }
-h1{
-    font-size: 8pt;
+.mainbody{
+    flex-wrap: nowrap;
+    height: 100%;
+    display: inline-flex;
     text-align: center;
+    position: relative;
+    width: 100%;
 }
-h2{
-    font-size: 18pt;
-    font-style: italic;
-    font-weight: bold;
-    text-align: justify;
-}
-h3{
-    font-size: 14pt;
-}
-p{
-    font-size: medium;
-    text-align: justify;
-}
-.navigationtop{
-    padding-top: 0.5em;
+.side {
+    
     text-align: center;
-    background-image: url("bar.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
+    width: 20%;
 }
 
-.navigationbottom{
-    padding: 3px;
-    background-color: #000;
+
+
+.side ul {
+    list-style-type: none;
+    padding-left: 0;
 }
-li.navigation_item a {
-    padding-bottom: 0.1em;
-    padding-top: 0.4em;
-    padding-left: 5%;
-    padding-right: 5%;
-    color: black;
-    text-decoration: none;
+.side ul li h4{
+    margin-top: 30%;
 }
 
-li.navigation_item :hover{
-    border: solid #000;
-    font-size: 110%;
-}
-li.navigation_item{
-    display: inline;
-    text-align: center;
 
+
+.who div img{
+    height: 20em;
 }
-#clicked{
-    background-color: #000;
+
+.who div{
+    margin: 0;
+    flex-wrap: nowrap;
+    display: flex;
 }
-img{
-    height: 30em;
-    width: 20em;
+
+.who div .article{
+    text-align: left;
+    display: block;
+    font-family: Georgia, serif;
+    width: inherit;
+}
+
+.article ul li h4{
+    margin-bottom: 0;
+}
+.date{
+    text-align: right;
+}
+.article ul li p{
+    padding-bottom: 0.5em;
+    padding-right: 0.5em;
+}
+
+#second div .side{
+    background-color: transparent;
+    width: 8%;
+}
+.content{
+    width: 80%;
+}
+
+#third div .side{
+    background-color: transparent;
+    width: 8%;
+}
+
+#third div .article{
+    width: 150%;
+}
+
+.who div .article h2{
+    font-size: 250%;
+    margin-bottom: 5%;
+}
+
+.who div .article p{
+    margin:0
 }
